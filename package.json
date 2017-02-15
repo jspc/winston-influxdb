@@ -10,7 +10,7 @@
   },
   "keywords": ["logging", "sysadmin", "tools", "winston", "influxdb", "log", "logger"],
   "dependencies": {
-    "influx": "latest"
+    "influx": "5.x.x"
   },
   "devDependencies": {
     "winston": ">=1.1.1 <3.0.0",
