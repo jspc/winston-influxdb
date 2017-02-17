@@ -1,21 +1,21 @@
 {
-  "name": "winston-influxdb",
-  "license": "MIT",
-  "version": "1.0.0",
-  "description": "An influxDB transport for winston",
-  "author": "jspc <james.condron@beamly.com>, Romain CATOIO <catoio.romain@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/zeebox/node-winston-influxdb.git"
-  },
-  "keywords": ["logging", "sysadmin", "tools", "winston", "influxdb", "log", "logger"],
-  "dependencies": {
-    "influx": "5.x.x"
-  },
-  "devDependencies": {
-    "winston": ">=1.1.1 <3.0.0",
-    "vows": "0.8.x",
-    "bluebird": ">=2.10.2 <4.0.0"
-  },
-  "main": "index.js"
+    "name": "winston-influxdb",
+    "license": "MIT",
+    "version": "1.0.0",
+    "description": "An influxDB transport for winston",
+    "author": "jspc <james.condron@beamly.com>, Romain CATOIO <catoio.romain@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/zeebox/node-winston-influxdb.git"
+    },
+    "keywords": ["logging", "sysadmin", "tools", "winston", "influxdb", "log", "logger"],
+    "dependencies": {
+        "influx": "5.x.x",
+        "lodash.clonedeep": "4.3.2",
+        "winston": ">=1.1.1 <3.0.0"
+    },
+    "main": "index.js",
+    "publishConfig": {
+        "registry": "http://us-east-1.nexus.beamly.com:8081/nexus/content/repositories/npm-internal/"
+    }
 }
