@@ -1,12 +1,12 @@
 {
   "name": "winston-influxdb",
   "license": "MIT",
-  "version": "0.1.0",
-  "description": "A influxDB transport for winston",
-  "author": "Romain CATOIO <catoio.romain@gmail.com>",
+  "version": "1.0.0",
+  "description": "An influxDB transport for winston",
+  "author": "jspc <james.condron@beamly.com>, Romain CATOIO <catoio.romain@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/RoCat/winston-influxdb.git"
+    "url": "http://github.com/zeebox/node-winston-influxdb.git"
   },
   "keywords": ["logging", "sysadmin", "tools", "winston", "influxdb", "log", "logger"],
   "dependencies": {
@@ -17,5 +17,5 @@
     "vows": "0.8.x",
     "bluebird": ">=2.10.2 <4.0.0"
   },
-  "main": "./lib/winston-influxdb"
+  "main": "index.js"
 }
