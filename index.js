@@ -13,6 +13,7 @@ var InfluxDB = exports.InfluxDB = function(opts){
     this.measurement = opts.measurement || 'request';
     this.app = opts.app || 'nodejs';
     this.region = opts.region || 'de';
+    this.environment = opts.environment || 'dev';
 
     this.ready = false;
 
@@ -41,6 +42,7 @@ InfluxDB.prototype.log = function (level, msg, meta, callback) {
                 measurement: this.measurement,
                 tags: {
                     app: this.app,
+                    environment: this.environment,
                     host: os.hostname(),
                     region: this.region,
                     requestID: meta['requestID'],
